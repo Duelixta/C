@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "Esqueletodeumprograma.C": "cpp",
+        "stdlib.h": "c"
+    }
+}
