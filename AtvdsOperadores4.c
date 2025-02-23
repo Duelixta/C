@@ -12,3 +12,18 @@ mostre:
 um elevado ao outro.
 */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main() {
+    int a,b;
+    printf("vamos calcular um numero elevado ao outro, preciso de 2 numeros");
+    scanf("%d %d",&a,&b);
+    int ele = pow(a,b);
+    int ele2 = pow(b,a);
+
+    printf("Os numeros %d e %d elevados um ao outro serao, %d ^ %d = %d e %d ^ %d = %d",a,b,a,b,ele,b,a,ele2);
+    return 0;
+}
