@@ -11,19 +11,3 @@ mostre:
 4. Faça um programa que receba dois números maiores que zero, calcule e mostre
 um elevado ao outro.
 */
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#define PI 3.14159265358979323846
-
-int main () {
-    int a,b;
-    printf("Me dê o raio de um circulo para que eu possa calcular sua área");
-    scanf("%d",&a);
-    b = PI*pow(a,2);
-
-    printf("O circulo de raio %d tem a área total de %d",a,b);
-
-    return 0;
-}
